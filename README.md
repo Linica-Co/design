@@ -2,6 +2,31 @@
 
 This module is the shared product and UX source for the Linica platform. It provides the visual and interaction reference for both the consumer booking app and the inventory management app.
 
+## Prerequisites and installation
+
+This is a design/asset repository, not an executable application. It does not require Flutter, Java, Node.js, a database, Docker, or Terraform. There is no application start/build command.
+
+To clone assets, install [Git](https://git-scm.com/downloads), obtain access to the private repository, reopen your terminal, and verify:
+
+```bash
+git --version
+git clone --branch main https://github.com/Linica-Co/design.git
+cd design
+```
+
+If using the parent Linica workspace, enter its `design` submodule instead. Alternatively, browse/download permitted assets through GitHub without installing Git.
+
+Install or use a PDF reader for `Linica Process User Flow.pdf`. Use a current browser for the hosted prototype links below. For editable source assets, first check each file's format and use the corresponding compatible viewer/editor; do not assume a particular design application is required for every asset. Obtain any necessary editor licence/account from the project owner.
+
+## Open and use the project
+
+1. Read `Linica Process User Flow.pdf` for the product journey.
+2. Browse `booking-app/` and `inventory-app/` for the relevant product assets.
+3. Open the hosted prototype links below. Their availability and access permissions are controlled by the prototype owner.
+4. For implementation, run the separate [booking app](https://github.com/Linica-Co/fe-fltr-linica) or [inventory app](https://github.com/Linica-Co/fe-fltr-inventory) using that project's README; opening design files does not start either application.
+
+If a prototype is unavailable or permission-restricted, request the current shared link/access from its owner. If a local asset cannot be opened, check its extension and compatible tools before converting it; retain the original. Do not commit customer data, credentials, or unlicensed assets.
+
 ## Design links
 
 - [Linica Booking App](https://xd.adobe.com/view/4e6c66a5-7d83-449f-84a2-e2997acd2607-1b3f/)
@@ -57,6 +82,8 @@ The product screens imply a reusable set of components:
 
 ## User-flow specs
 
+These are design targets and handoff references, not a claim that every flow is implemented in the applications.
+
 ### Consumer booking flow
 
 1. Sign in or create account
@@ -104,3 +131,4 @@ The current assets are a good starting point, but the design system still needs 
 - route-level design specs for each screen
 - accessibility requirements and QA notes
 
+The hosted prototype links were preserved from the existing README; their availability was not independently tested for this documentation update. For application prerequisites and local development, see the [shared workspace guide](https://github.com/Linica-Co/linica#readme).
