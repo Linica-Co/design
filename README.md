@@ -2,9 +2,11 @@
 
 ## Clickable prototype
 
-Open the [booking and inventory clickable prototype](prototype/index.html). It includes 19 booking screens and 9 inventory screens, product switching, screen search, keyboard navigation, flow progress, and enlarged image viewing.
+[Open the booking and inventory prototype](prototype/index.html). It includes 19 booking screens and 9 inventory screens, product switching, screen search, keyboard navigation, flow progress and enlarged image viewing.
 
-The prototype uses the PNG assets stored in this repository. Open `prototype/index.html` directly in a browser or serve the repository with a local static server:
+### Download and present offline
+
+[Download the repository ZIP](https://github.com/Linica-Co/design/archive/refs/heads/main.zip). Extract it, then open `prototype/index.html` in a browser. Keep the extracted `booking-app/` and `inventory-app/` folders alongside the `prototype/` folder so the screen images load. The prototype can also be opened from a local server:
 
 ```bash
 python3 -m http.server 8000
@@ -12,7 +14,9 @@ python3 -m http.server 8000
 
 Then visit `http://localhost:8000/prototype/`.
 
-## Assets
+The repository is private, so downloading the ZIP requires repository access. GitHub Pages sharing is likewise subject to this repository's visibility and organization settings; the design screens should not be made publicly accessible without approval.
+
+## Design assets
 
 - [`booking-app/`](booking-app/) contains the customer booking screens.
 - [`inventory-app/`](inventory-app/) contains the inventory management screens.
