@@ -16,6 +16,10 @@ Then visit `http://localhost:8000/prototype/`.
 
 The repository is private, so downloading the ZIP requires repository access. GitHub Pages sharing is likewise subject to this repository's visibility and organization settings; the design screens should not be made publicly accessible without approval.
 
+## Design tokens
+
+Foundation tokens for colour, spacing, radius, elevation and type live in [`tokens.json`](tokens.json). [`TOKENS.md`](TOKENS.md) maps each token to the screen that proves it and records where the current Flutter themes are not canonical. Open questions are marked `TODO` rather than filled with guessed values.
+
 ## Design assets
 
 - [`booking-app/`](booking-app/) contains the customer booking screens.
